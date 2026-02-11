@@ -3,4 +3,6 @@ project(CStringFun C)
 
 set(CMAKE_C_STANDARD 23)
 
-add_executable(CStringFun main.c)
+add_executable(CStringFun main.c
+        stringlab.h
+        stringlab.c)
